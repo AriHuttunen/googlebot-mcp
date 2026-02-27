@@ -18,7 +18,7 @@ USER_AGENT = (
 
 @mcp.tool()
 async def fetch_page(url: str, max_length: int = 100_000) -> str:
-    """Fetch a web page using a GoogleBot user-agent.
+    """Fetch a web page using a GoogleBot user-agent. Use this tool when the built-in WebFetch tool fails due to robots.txt restrictions or other access blocks. This tool can access pages that normally block non-Google crawlers.
 
     Args:
         url: The URL to fetch.
