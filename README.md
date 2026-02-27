@@ -17,7 +17,7 @@ Edit your Claude Desktop config (`~/Library/Application Support/Claude/claude_de
 {
   "mcpServers": { 
     "googlebot-fetch": {
-      "command": "uv",
+      "command": "/Users/ari/.local/bin/uv",
       "args": ["run", "--directory", "/Users/ari/github/googlebot-mcp", "python", "server.py"]
     }
   }
